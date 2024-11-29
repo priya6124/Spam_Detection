@@ -13,6 +13,7 @@ Project Structure
 
 
 Spam Detection/
+
 ├── app.py               
 ├── vectorizer.pkl       
 ├── model.pkl            
@@ -24,26 +25,27 @@ Installation
 Follow these steps to set up and run the project locally:
 
 1.  Clone the repository :
-       git clone https://github.com/your-username/spam-detection.git
-   cd spam-detection
+
+git clone https://github.com/your-username/spam-detection.git
+cd spam-detection
     
 
-2.  Install dependencies :
-   Make sure Python is installed. Then, install the required Python packages:
-    bash
-   pip install -r requirements.txt
+3.  Install dependencies :
+Make sure Python is installed. Then, install the required Python packages:
+  
+pip install -r requirements.txt
     
 
-3.  Run the application :
-   Start the Streamlit application:
-    bash
-   streamlit run app.py
+4.  Run the application :
+Start the Streamlit application:
+   
+streamlit run app.py
     
 
-4.  Access the application :
-   Open your browser and go to:
+5.  Access the application :
+Open your browser and go to:
     
-   http://localhost:8501
+http://localhost:8501
     
 
    Deployment
